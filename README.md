@@ -28,7 +28,7 @@ This is the backend for the [Flag Game](https://github.com/neha-deepthi/flag-gam
    ```
 
 3. **Configure the database:**
-   - Update the database credentials in `solution.js` if needed:
+   - Update the database credentials in `index.js` if needed:
      ```js
      const db = new pg.Client({
        user: "postgres",
